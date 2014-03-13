@@ -9,7 +9,7 @@ class EmployeeRemoteControl {
 
     EmployeeRemoteControl() {
         String port = System.getProperty('grails.server.port.http', '8080')
-        remote = new RemoteControl(new HttpTransport("http://localhost:${port}/gebDemo/grails-remote-control"))
+        remote = new RemoteControl(new HttpTransport("http://localhost:${port}/grailsTestingDemo/grails-remote-control"))
     }
 
 
