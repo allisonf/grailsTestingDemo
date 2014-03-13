@@ -1,0 +1,15 @@
+*.swp
+out
+target
+logs
+*.log
+dump
+*.ipr
+*.iml
+*/*.iml
+.idea
+*.iws
+*.war
+atlassian-ide-plugin.xml
+.git
+*/web-app/WEB-INF/classes
